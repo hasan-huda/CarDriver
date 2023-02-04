@@ -9,6 +9,5 @@ public class TestDrive{
     driver.refuel();
     driver.refuel();
     driver.refuel();
-    
   }
 }

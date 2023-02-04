@@ -5,15 +5,16 @@ public class Driver extends Car{
 
   public void drive(){
     gasLevel-=1;
-    System.out.println("You drive the car.");
-    System.out.println("Gas remaining: "+gasLevel+"/10");
+    status();
   }
 
   public void useBoosters(){
     gasLevel-=3;
+    status();
   }
 
   public void refuel(){
     gasLevel+=2;
+    status();
   }
 }
